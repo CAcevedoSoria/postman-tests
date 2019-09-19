@@ -1,0 +1,42 @@
+use spring_boot2;
+
+db.Students.insert([
+     {
+        
+        "fullName": "Christian Acevedo Soria",
+        "gender": "male",
+        "birthday": ISODate("1965-09-27"),
+        "address": "ostolaza 222",
+        "academicPeriod": "8voCycle",
+        "typeDocument": "dni",
+        "document": "98474845"
+    }
+,
+
+ {
+        
+        "fullName": "Alejandro Meza Soto",
+        "gender": "male",
+        "birthday": ISODate("1965-09-27"),
+        "address": "Javier Prado 5000",
+        "academicPeriod": "2voCycle",
+        "typeDocument": "dni",
+        "document": "19876765"
+    }
+,
+ {
+        
+        "fullName": "Alejandro Victorio Nesta",
+        "gender": "male",
+        "birthday": ISODate("1965-09-27"),
+        "address": "Usa 5464",
+        "academicPeriod": "9voCycle",
+        "typeDocument": "dni",
+        "document": "23456786"
+    }
+
+])
+
+
+ "address": "ostolaza 111",
+        "academicPeriod": "8vo",

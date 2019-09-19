@@ -1,0 +1,48 @@
+use spring_boot2;
+
+db.Parents.insert([
+    {
+        
+        "fullName": "Flor Soria Carpio",
+        "gender": "female",
+        "birthday": ISODate("1965-09-27"),
+        "typeDocument": "dni",
+        "document": "98765476"
+    }
+    
+    ,
+    {
+    	"fullName": "Humberto Acevedo Ponce",
+        "gender": "male",
+        "birthday": ISODate("1966-03-27"),
+        "typeDocument": "dni",
+        "document": "07543124"
+    	
+    	
+    }
+    
+      ,
+    {
+    	"fullName": "Luis Acevedo Soria",
+        "gender": "male",
+        "birthday": ISODate("2000-03-25"),
+        "typeDocument": "dni",
+        "document": "28762786"
+    	
+    	
+    }
+    
+      ,
+    {
+    	"fullName": "Dario Acevedo Soria",
+        "gender": "male",
+        "birthday": ISODate("1997-03-19"),
+        "typeDocument": "dni",
+        "document": "87627865"
+    	
+    	
+    }
+])
+
+
+print("SCRIPT FINISHED");

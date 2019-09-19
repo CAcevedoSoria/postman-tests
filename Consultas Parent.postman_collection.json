@@ -1,0 +1,260 @@
+{
+	"id": "2f572f86-8671-1c4f-6653-e966660fc3f1",
+	"name": "Consultas Parent",
+	"description": "",
+	"order": [
+		"343140e6-ddcc-2ce6-8861-2b3b01c7d967",
+		"74833057-f7c9-061a-68ac-4d21fac45f65",
+		"9fdea869-ff0c-8fcb-5d9d-bb4f940a8ba0",
+		"70b030db-a218-bbef-e261-36d08edb75d4",
+		"6e352fb3-f4e4-fcf7-4ca1-34b141b91015",
+		"d47b8749-4174-de89-2c9f-f4bdfae0f8d0",
+		"87e44b5b-29e8-e413-30e8-c94aa91f057f",
+		"06b6cde7-9730-0b20-571d-c1e580f76155"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1568926660286,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "06b6cde7-9730-0b20-571d-c1e580f76155",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/api/v1.0/parents/5d83eb0e2523ef89b5cd5eda",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "2f572f86-8671-1c4f-6653-e966660fc3f1",
+			"data": [],
+			"dataMode": "raw",
+			"name": "FindById",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1568928911921,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "\n{\n    \n        \"fullName\": \"Yesenia Apolinario Matos\",\n        \"gender\": \"female\",\n        \"birthday\": \"1965-09-26\",\n        \"typeDocument\": \"dni\",\n        \"document\": \"87365675\"\n    \n    }"
+		},
+		{
+			"id": "343140e6-ddcc-2ce6-8861-2b3b01c7d967",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/api/v1.0/parents/name/Flor Soria Carpio",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1568927170572,
+			"name": "Find Parents",
+			"description": "Buscar Parent",
+			"collectionId": "2f572f86-8671-1c4f-6653-e966660fc3f1",
+			"responses": [],
+			"rawModeData": "{\n       \n        \"fullName\": \"Jose Apolinario Matos\",\n        \"gender\": \"female\",\n        \"birthday\": \"1965-09-26\",\n        \"typeDocument\": \"dni\",\n        \"document\": \"87652673\"\n    }"
+		},
+		{
+			"id": "6e352fb3-f4e4-fcf7-4ca1-34b141b91015",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:4000/api/v1.0/parents/5d83eb0e2523ef89b5cd5edd",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "2f572f86-8671-1c4f-6653-e966660fc3f1",
+			"data": null,
+			"dataMode": "params",
+			"name": "Delete Parent",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1568927264533,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "70b030db-a218-bbef-e261-36d08edb75d4",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/api/v1.0/parents/document/98765476",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "2f572f86-8671-1c4f-6653-e966660fc3f1",
+			"data": [],
+			"dataMode": "raw",
+			"name": "FindByDocument",
+			"description": "Buscar Parent",
+			"descriptionFormat": "html",
+			"time": 1568927223565,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n       \n        \"fullName\": \"Jose Apolinario Matos\",\n        \"gender\": \"female\",\n        \"birthday\": \"1965-09-26\",\n        \"typeDocument\": \"dni\",\n        \"document\": \"87652673\"\n    }"
+		},
+		{
+			"id": "74833057-f7c9-061a-68ac-4d21fac45f65",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/api/v1.0/parents",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "2f572f86-8671-1c4f-6653-e966660fc3f1",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Create Parent",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1568926995924,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n       \n        \"fullName\": \"Ricardo Apolinario Matos\",\n        \"gender\": \"male\",\n        \"birthday\": \"1965-09-26\",\n        \"typeDocument\": \"dni\",\n        \"document\": \"27263765\"\n    }"
+		},
+		{
+			"id": "87e44b5b-29e8-e413-30e8-c94aa91f057f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/api/v1.0/parents/date/1700-03-03/1999-03-12",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "2f572f86-8671-1c4f-6653-e966660fc3f1",
+			"data": [],
+			"dataMode": "raw",
+			"name": "FindDateBetween",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1568928866339,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "\n{\n    \n        \"fullName\": \"Yesenia Apolinario Matos\",\n        \"gender\": \"female\",\n        \"birthday\": \"1965-09-26\",\n        \"typeDocument\": \"dni\",\n        \"document\": \"87365675\"\n    \n    }"
+		},
+		{
+			"id": "9fdea869-ff0c-8fcb-5d9d-bb4f940a8ba0",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/api/v1.0/parents/name/Flor Soria Carpio",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "2f572f86-8671-1c4f-6653-e966660fc3f1",
+			"data": [],
+			"dataMode": "raw",
+			"name": "FindByFullName",
+			"description": "Buscar Parent",
+			"descriptionFormat": "html",
+			"time": 1568927186263,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n       \n        \"fullName\": \"Jose Apolinario Matos\",\n        \"gender\": \"female\",\n        \"birthday\": \"1965-09-26\",\n        \"typeDocument\": \"dni\",\n        \"document\": \"87652673\"\n    }"
+		},
+		{
+			"id": "d47b8749-4174-de89-2c9f-f4bdfae0f8d0",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/api/v1.0/parents/5d83ece136ec184bd40a2b1c",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "2f572f86-8671-1c4f-6653-e966660fc3f1",
+			"data": [],
+			"dataMode": "raw",
+			"name": "UpdateParent",
+			"description": "Buscar Parent",
+			"descriptionFormat": "html",
+			"time": 1568928639126,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "\n{\n    \n        \"fullName\": \"Yesenia Apolinario Matos\",\n        \"gender\": \"female\",\n        \"birthday\": \"1965-09-26\",\n        \"typeDocument\": \"dni\",\n        \"document\": \"87365675\"\n    \n    }"
+		}
+	]
+}
