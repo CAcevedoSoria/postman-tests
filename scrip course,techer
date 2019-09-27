@@ -1,0 +1,57 @@
+Datos
+-Estudiante
+-Profesores
+-Fam Estudiante
+-Curso
+
+
+use spring_boot2;
+
+db.Course.insert([
+	     {
+	        
+	        "nameCourse": "Data base2",
+	        "status": "active",
+	        "quotaMin": "2",
+	        "quotaMax": "5"
+	         }
+	         ,
+
+	         {
+	        
+	        "nameCourse": "Springboot",
+	        "status": "active",
+	        "quotaMin": "2",
+	        "quotaMax": "8"
+	         }
+	         
+
+])
+print("SCRIPT FINISHED");
+
+db.Teacher.insert([
+
+{
+    
+    "nameTeacher":"Angela Espinoza",
+    "age":"20",
+    "dictatedCourses":"2"
+
+}
+]
+);
+
+
+
+db.Teacher.insert(
+
+{
+
+    
+    "nameTeacher":"Roberto Peña",
+    "age":"21",
+    "dictatedCourses":"2"
+	
+}
+);
+

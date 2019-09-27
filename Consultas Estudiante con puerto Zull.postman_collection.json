@@ -1,0 +1,206 @@
+{
+	"id": "76abdd5e-29d2-c5ce-77f3-faf5ce8202eb",
+	"name": "Consultas Estudiante con puerto Zull",
+	"description": "",
+	"order": [
+		"573bd049-bb30-8815-bcf4-2622f6a7ac63",
+		"12e5a163-d707-f317-b238-8a0a5de23039",
+		"f74037f9-782b-e1bc-959d-c9798dcd75af",
+		"5c018b96-fa0c-5b3f-2d5c-e7e23e561cbf",
+		"2447eb79-371b-dc4d-88b0-81c780d42502",
+		"b642b04d-ed1c-d7a7-b2fe-2c532fff5bea"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1569624475824,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "12e5a163-d707-f317-b238-8a0a5de23039",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8090/api/v1.0/student/5d83fe89d604b3c5e1e4d361",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "76abdd5e-29d2-c5ce-77f3-faf5ce8202eb",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Busqueda por ID",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1569624520608,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "\r\n   {\r\n\t        \"namecourse\": \"Database2\",\r\n\t        \"status\": \"active\",\r\n\t        \"quotaMin\": \"2\",\r\n\t        \"quotaMax\": \"5\",\r\n\t        \"teacher\": {\r\n                        \"fullname\": \"AlexandraGarcia\",\r\n\t                    \"age\":20,\r\n\t                    \"dictatedCourses\": 2\r\n\t                    }\r\n\t               \r\n\t   }"
+		},
+		{
+			"id": "2447eb79-371b-dc4d-88b0-81c780d42502",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8090/api/v1.0/student/date/1700-02-03/2000-01-03",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "76abdd5e-29d2-c5ce-77f3-faf5ce8202eb",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Busqueda por Rango de Fecha de nacimiento",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1569624647240,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "\r\n   {\r\n\t        \"namecourse\": \"Database2\",\r\n\t        \"status\": \"active\",\r\n\t        \"quotaMin\": \"2\",\r\n\t        \"quotaMax\": \"5\",\r\n\t        \"teacher\": {\r\n                        \"fullname\": \"AlexandraGarcia\",\r\n\t                    \"age\":20,\r\n\t                    \"dictatedCourses\": 2\r\n\t                    }\r\n\t               \r\n\t   }"
+		},
+		{
+			"id": "573bd049-bb30-8815-bcf4-2622f6a7ac63",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8090/api/v1.0/student/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "76abdd5e-29d2-c5ce-77f3-faf5ce8202eb",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8090/api/v1.0/student/",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1569624486078,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "\r\n   {\r\n\t        \"namecourse\": \"Database2\",\r\n\t        \"status\": \"active\",\r\n\t        \"quotaMin\": \"2\",\r\n\t        \"quotaMax\": \"5\",\r\n\t        \"teacher\": {\r\n                        \"fullname\": \"AlexandraGarcia\",\r\n\t                    \"age\":20,\r\n\t                    \"dictatedCourses\": 2\r\n\t                    }\r\n\t               \r\n\t   }"
+		},
+		{
+			"id": "5c018b96-fa0c-5b3f-2d5c-e7e23e561cbf",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8090/api/v1.0/student/document/98474845",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "76abdd5e-29d2-c5ce-77f3-faf5ce8202eb",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Busqueda por Documento",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1569624576942,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "\r\n   {\r\n\t        \"namecourse\": \"Database2\",\r\n\t        \"status\": \"active\",\r\n\t        \"quotaMin\": \"2\",\r\n\t        \"quotaMax\": \"5\",\r\n\t        \"teacher\": {\r\n                        \"fullname\": \"AlexandraGarcia\",\r\n\t                    \"age\":20,\r\n\t                    \"dictatedCourses\": 2\r\n\t                    }\r\n\t               \r\n\t   }"
+		},
+		{
+			"id": "b642b04d-ed1c-d7a7-b2fe-2c532fff5bea",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8090/api/v1.0/student/5d83fe89d604b3c5e1e4d362",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "76abdd5e-29d2-c5ce-77f3-faf5ce8202eb",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Eliminar Estudiante",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1569624666904,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "\r\n   {\r\n\t        \"namecourse\": \"Database2\",\r\n\t        \"status\": \"active\",\r\n\t        \"quotaMin\": \"2\",\r\n\t        \"quotaMax\": \"5\",\r\n\t        \"teacher\": {\r\n                        \"fullname\": \"AlexandraGarcia\",\r\n\t                    \"age\":20,\r\n\t                    \"dictatedCourses\": 2\r\n\t                    }\r\n\t               \r\n\t   }"
+		},
+		{
+			"id": "f74037f9-782b-e1bc-959d-c9798dcd75af",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8090/api/v1.0/student/name/Christian Acevedo Soria",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "76abdd5e-29d2-c5ce-77f3-faf5ce8202eb",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Busqueda por Nombre",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1569624554528,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "\r\n   {\r\n\t        \"namecourse\": \"Database2\",\r\n\t        \"status\": \"active\",\r\n\t        \"quotaMin\": \"2\",\r\n\t        \"quotaMax\": \"5\",\r\n\t        \"teacher\": {\r\n                        \"fullname\": \"AlexandraGarcia\",\r\n\t                    \"age\":20,\r\n\t                    \"dictatedCourses\": 2\r\n\t                    }\r\n\t               \r\n\t   }"
+		}
+	]
+}
